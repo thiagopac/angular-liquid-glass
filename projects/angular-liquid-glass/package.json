@@ -1,0 +1,41 @@
+{
+  "name": "angular-liquid-glass",
+  "version": "0.1.0",
+  "description": "Standalone Angular components with liquid glass visual effects.",
+  "license": "MIT",
+  "author": "Thiago Pires Alves de Castro",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagopac/angular-liquid-glass.git"
+  },
+  "homepage": "https://github.com/thiagopac/angular-liquid-glass#readme",
+  "bugs": {
+    "url": "https://github.com/thiagopac/angular-liquid-glass/issues"
+  },
+  "keywords": [
+    "angular",
+    "angular-library",
+    "standalone-components",
+    "glassmorphism",
+    "liquid-glass",
+    "ui"
+  ],
+  "files": [
+    "fesm2022/",
+    "types/",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^21.2.0",
+    "@angular/core": "^21.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false
+}
