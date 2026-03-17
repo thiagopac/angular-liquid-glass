@@ -33,7 +33,7 @@ import { LiquidGlassButtonComponent, LiquidGlassCardComponent } from 'angular-li
 export class DemoComponent {}
 ```
 
-## Available Components
+## Public API (Components & Services)
 
 - `LiquidGlassAccordionComponent`
 - `LiquidGlassButtonComponent`
