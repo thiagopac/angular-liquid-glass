@@ -6,6 +6,12 @@ The format is based on Keep a Changelog and the project follows Semantic Version
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-03-17
+
+### Changed
+
+- Expanded the library README with component-by-component examples and input reference tables.
+
 ## [0.1.1] - 2026-03-17
 
 ### Changed
