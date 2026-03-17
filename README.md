@@ -56,7 +56,7 @@ export class DemoComponent {}
 
 ## Package API
 
-The current public entrypoint exports:
+The current public entrypoint exports include:
 
 - `LiquidGlassAccordionComponent`
 - `LiquidGlassButtonComponent`
