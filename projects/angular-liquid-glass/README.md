@@ -16,10 +16,7 @@ npm install angular-liquid-glass
 
 ```ts
 import { Component } from '@angular/core';
-import {
-  LiquidGlassButtonComponent,
-  LiquidGlassCardComponent,
-} from 'angular-liquid-glass';
+import { LiquidGlassButtonComponent, LiquidGlassCardComponent } from 'angular-liquid-glass';
 
 @Component({
   selector: 'app-demo',
@@ -29,9 +26,7 @@ import {
     <angular-liquid-glass-card width="320px" height="220px">
       <h2>Angular Liquid Glass</h2>
       <p>Standalone glassmorphism components for Angular.</p>
-      <angular-liquid-glass-button>
-        Explore
-      </angular-liquid-glass-button>
+      <angular-liquid-glass-button> Explore </angular-liquid-glass-button>
     </angular-liquid-glass-card>
   `,
 })
