@@ -25,8 +25,8 @@ npm install angular-liquid-glass
 
 Expected peer dependencies in the host application:
 
-- Angular `^21.2.0`
-- RxJS `^7.8.0`
+- `@angular/core` `^21.2.0`
+- `@angular/common` `^21.2.0`
 
 ## Quick Start
 
