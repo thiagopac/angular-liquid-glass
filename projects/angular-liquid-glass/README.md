@@ -1,6 +1,10 @@
 # Angular Liquid Glass
 
-`angular-liquid-glass` provides standalone Angular components with a liquid glass visual language.
+`angular-liquid-glass` is a standalone Angular component library for liquid glass and glassmorphism interfaces.
+
+- Live docs: https://thiagopac.github.io/angular-liquid-glass-docs/
+- npm package: https://www.npmjs.com/package/angular-liquid-glass
+- Repository: https://github.com/thiagopac/angular-liquid-glass
 
 ## Install
 
@@ -8,7 +12,12 @@
 npm install angular-liquid-glass
 ```
 
-## Example
+Expected peer dependencies in the host application:
+
+- `@angular/core` `^21.2.0`
+- `@angular/common` `^21.2.0`
+
+## Quick Start
 
 ```ts
 import { Component } from '@angular/core';
@@ -29,7 +38,7 @@ import { LiquidGlassButtonComponent, LiquidGlassCardComponent } from 'angular-li
 export class DemoComponent {}
 ```
 
-## Components
+## Public API (Components & Services)
 
 - `LiquidGlassAccordionComponent`
 - `LiquidGlassButtonComponent`
@@ -42,8 +51,10 @@ export class DemoComponent {}
 - `LiquidGlassNavItemComponent`
 - `LiquidGlassSpinnerComponent`
 - `LiquidGlassToggleComponent`
+- `LiquidGlassFilterService`
 
-## Repository
+## More Information
 
-Project docs, contribution guide, and release process live in the repository README:
+For full examples, contribution guides, release flow, and project status, see:
+
 https://github.com/thiagopac/angular-liquid-glass
